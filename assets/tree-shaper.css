@@ -30,11 +30,11 @@
 }
 
 .expanded > .icon-triangle > .octicon-triangle {
-    background-image: url('/_theme/arrow-open/arrow-open.svg');
+    background-image: url('/en/_theme/arrow-open/arrow-open.svg');
 }
 
 .collapsed > .icon-triangle > .octicon-triangle {
-    background-image: url('/_theme/arrow-close/arrow-close.svg');
+    background-image: url('/en/_theme/arrow-close/arrow-close.svg');
 }
 
 .icon-triangle:hover {
@@ -87,7 +87,7 @@ img.brand-logo {
     content: ' ';
     width: 15px;
     height: 15px;
-    background-image: url(/_theme/search-icon.svg);
+    background-image: url(/en/_theme/search-icon.svg);
     background-repeat: no-repeat;
     background-position: 2px;
     background-size: 100%;
