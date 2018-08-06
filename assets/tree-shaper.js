@@ -160,7 +160,8 @@ jQuery(document).ready(function () {
 	
 	/*Another important function*/
 	var addLinkToGithub = function () {
-		var path = pathToGithubFile + gitbook.page.getState().file.path;
+		var language = window.location.pathname.split('/')[1];
+		var path = pathToGithubFile + language + '/' + gitbook.page.getState().file.path;
 		var $button = $('<a class="btn pull-right" style="text-transform: none;" aria-label="" target="_blank" href="' + path + '"><i class="fa fa-github"></i> Open on Github</a>');
 		$('.dropdown.pull-left.font-settings').before($button);
 	}
