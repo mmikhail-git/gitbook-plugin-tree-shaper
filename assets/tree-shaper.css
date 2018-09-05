@@ -7,6 +7,11 @@
     line-height: 18px;
     margin-right: 4px;
     margin-left: -4px;
+    margin-top: -6px;
+}
+
+.header > .icon-triangle {
+    margin-top: -6px;
 }
 
 .octicon {
@@ -62,7 +67,7 @@ img.brand-logo {
     padding-left: 20px;
     text-transform: none;
     font-size: 15px;
-    line-height: 1.33;
+    line-height: 0.4;
     color: #4e5c6e;
     font-weight: 600;
 }
@@ -93,7 +98,8 @@ img.brand-logo {
     background-size: 100%;
     position: absolute;
     left: 28px;
-    margin-top: 18px;}
+    margin-top: 18px;
+}
 
 #book-search-input > input:focus {
     background-color: #fff;
@@ -132,4 +138,8 @@ img.brand-logo {
 
 ::-webkit-scrollbar-thumb:window-inactive {
     background: #dae1e9;
+}
+
+.book-summary ul.summary li ul {
+    padding-left: 30px !important;
 }

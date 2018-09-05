@@ -96,7 +96,7 @@ jQuery(document).ready(function () {
                 $header.addClass(expandedState);
                 $header.next('.chapters-wrapper').show(0);
             } else {
-                if (index > 1 || (index < 2 && currentTreeState[_key] === collapsedState)) {
+                if (currentTreeState[_key] === collapsedState) {
                     $header
                       .addClass(collapsedState)
                       .next('.chapters-wrapper')
