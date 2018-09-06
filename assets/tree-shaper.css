@@ -1,13 +1,13 @@
 .icon-triangle {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
     text-align: center;
     display: block;
     float: left;
     line-height: 18px;
     margin-right: 4px;
     margin-left: -4px;
-    margin-top: -6px;
+    margin-top: 0px;
 }
 
 .header > .icon-triangle {
@@ -31,7 +31,8 @@
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-position: 3px;
+    background-position: 2px;
+    background-size: 79%;
 }
 
 .expanded > .icon-triangle > .octicon-triangle {
