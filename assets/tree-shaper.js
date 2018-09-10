@@ -96,14 +96,10 @@ jQuery(document).ready(function () {
                 $header.addClass(expandedState);
                 $header.next('.chapters-wrapper').show(0);
             } else {
-                if (currentTreeState[_key] === collapsedState) {
-                    $header
-                      .addClass(collapsedState)
-                      .next('.chapters-wrapper')
-                      .hide(0);
-                } else {
-                    $header.addClass(expandedState);
-                }
+                $header
+                  .addClass(collapsedState)
+                  .next('.chapters-wrapper')
+                  .hide(0);
             }
             attachHeaderClickHandlers($icon);
         });
