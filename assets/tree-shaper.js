@@ -4,7 +4,7 @@ jQuery(document).ready(function () {
     var collapsedState = 'collapsed';
     var expandedState = 'expanded';
     var animationTime = 200;
-    var pathToGithubFile = 'https://github.com/wavesplatform/waves-documentation/blob/master/';
+    var pathToGithubFile = 'https://github.com/vostokplatform/documentation/blob/master';
     
     var attachChapterClickHandler = function ($collapseIcon) {
         $collapseIcon.on('click', function (e) {
