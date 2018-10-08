@@ -145,9 +145,9 @@ jQuery(document).ready(function () {
     var addBranding = function () {
         var $bookSummary = $('.book-summary');
         var $logo = $('<div class="sidebar-brand">' +
-          '<a href="/"><img class="brand-logo" src="/_theme/brand-logo/waves-docs-logo.png"\n' +
+          '<a href="/"><img class="brand-logo" src="/_theme/brand-logo/logo_blue.svg"\n' +
           '     srcset="/_theme/brand-logo/waves-docs-logo@2x.png 2x,\n' +
-          '             /_theme/brand-logo/waves-docs-logo@3x.png 3x"\n alt="Waves Docs"></a>' +
+          '             /_theme/brand-logo/waves-docs-logo@3x.png 3x"\n alt="Vostok Docs"></a>' +
           '</div>');
         $bookSummary.prepend($logo);
     };
@@ -161,7 +161,7 @@ jQuery(document).ready(function () {
             language = gitbook.page.getState().innerLanguage + '/';
         }
         var path = pathToGithubFile + language + gitbook.page.getState().file.path;
-        var $button = $('<a class="btn pull-right" style="text-transform: none;" aria-label="" target="_blank" href="' + path + '"><i class="fa fa-github"></i> Open on Github</a>');
+        var $button = $('<a class="btn pull-right" style="text-transform: none;" aria-label="" target="_blank" href="' + path + '"><i class="fa fa-github"></i> Open on GitHub</a>');
         $('.dropdown.pull-left.font-settings').before($button);
     }
     addLinkToGithub();
