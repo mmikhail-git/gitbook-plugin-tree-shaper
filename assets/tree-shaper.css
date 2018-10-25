@@ -93,7 +93,7 @@ img.brand-logo {
     content: ' ';
     width: 15px;
     height: 15px;
-    background-image: url(/en/_theme/search-icon.svg);
+    background-image: url(/_theme/search-icon.svg);
     background-repeat: no-repeat;
     background-position: 2px;
     background-size: 100%;
