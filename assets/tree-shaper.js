@@ -4,7 +4,7 @@ jQuery(document).ready(function () {
     var collapsedState = 'collapsed';
     var expandedState = 'expanded';
     var animationTime = 200;
-    var pathToGithubFile = 'https://github.com/vostokplatform/documentation/en/';
+    var pathToGithubFile = 'https://github.com/vostokplatform/documentation/blob/master/en/';
     
     var attachChapterClickHandler = function ($collapseIcon) {
         $collapseIcon.on('click', function (e) {
