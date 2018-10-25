@@ -36,11 +36,11 @@
 }
 
 .expanded > .icon-triangle > .octicon-triangle {
-    background-image: url('/en/_theme/arrow-open/arrow-open.svg');
+    background-image: url('/_theme/arrow-open/arrow-open.svg');
 }
 
 .collapsed > .icon-triangle > .octicon-triangle {
-    background-image: url('/en/_theme/arrow-close/arrow-close.svg');
+    background-image: url('/_theme/arrow-close/arrow-close.svg');
 }
 
 .icon-triangle:hover {
